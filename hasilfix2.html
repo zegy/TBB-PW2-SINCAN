@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+<title>Website Salon Kecantikan</title>
+      
+  <head>
+    <meta charset="utf-8">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span>Beranda</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="login.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="Images\kimcil.png"
+            class="img-responsive">
+          </div>
+          <div class="col-md-8">
+            <h2 align="center">Sistem Informasi Salon Kecantikan</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="Images\kimcil.png"
+            class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div id="kiri-kasir" class="col-md-3">
+            <ul class="nav nav-pills">
+              <li>
+                <a href="kasir.html">Beranda Kasir</a>
+              </li>
+              <li>
+                <a href="kasir1.html">Pendataan Pelanggan</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-9">
+            <h2>Pembelian Produk</h2>
+            <ul class="nav nav-pills"></ul>
+            <table border="1" class="table">
+              <thead></thead>
+              <tbody>
+                <tr>
+                  <td align="center">Nama</td>
+                  <td align="center">Produk</td>
+                  <td align="center">Banyak</td>
+                  <td align="center">Tanggal</td>
+                  <td align="center">Harga</td>
+                </tr>
+                <tr>
+                  <td align="center">Mhargaret</td>
+                  <td>1. Makarizo Hair Energy fibertherapy Conditioning Shampo<br>2. Makarizo Nutriv Serum Honey Dew</td></td>
+                  <td align="center">1<br>1</td>
+                  <td>2017-01-10</td>
+                  <td align="center">90.000<br>60.000</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="center">Total</td>
+                  <td></td>
+                  <td></td>
+                  <td align="center">150.000</td>
+                </tr>
+                <tr></tr>
+              </tbody>
+            </table>
+            <a href=""><button type="button" class="btn btn-default" onclick="cetak();">Cetak</button></a>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sistem-salon">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 contenteditable="true" class="text-center">Sistem Informasi Salon Kecantikan</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="col-md-12">
+      <h5 align="center">Copyright© by Dhiga Zegy Agus</h5>
+    </div>&gt;
+
+    <script>
+    function cetak() {
+    var pilihan = confirm("Apakah anda setuju?");
+      if (pilihan == true) {
+        document.write("Anda mengklik ok");
+        } else {
+        document.write("Anda mengklik cancel");};
+                      }
+    </script>
+
+    </body>
+
+</html>

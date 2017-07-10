@@ -1,0 +1,359 @@
+<html lang="en">
+<head>
+<title>Website Salon Kecantikan</title>
+      
+  <head>
+    <meta charset="utf-8">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <title>Website Salon Kecantikan</title>
+    <meta charset="utf-8">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="admin.html"><span>Branda</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="Images/kimcil.png"
+            class="img-responsive">
+          </div>
+          <div class="col-md-8">
+            <h2 align="center">Sistem Informasi Salon Kecantikan</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="Images/kimcil.png"
+            class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="nav nav-pills">
+              <li>
+                <a href="admin.html">Halaman Admin</a>
+              </li>
+                 <li>
+                <a href="admin1.html">Olah data User</a>
+              </li>
+              <li>
+                <a href="daftarperawatan.html">Olah data Perawatan</a>
+              </li>
+              <li>
+                <a href="daftarproduk.html">Olah data Produk</a>
+              <li>
+                <a href="laporankeuanganadmin.html">Laporan Keuangan</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <h2>Daftar Produk</h2>
+            <table border="1" class="table">
+              <thead>
+                <tr>
+                  <th>ID Produk</th>
+                  <th>Nama Produk</th>
+                  <th>Harga</th>
+                  <th>Jumlah Produk</th>
+                  <th contenteditable="true"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>101</td>
+                  <td>Makarizo Salon Daily Professional Shampo</td>
+                  <td>90.000</td>
+                  <td>10</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>102</td>
+                  <td>Makarizo Salon Daily Professional Conditioner</td>
+                  <td>70.000</td>
+                  <td>10</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>103</td>
+                  <td>Lightning Face Mask</td>
+                  <td>20.000</td>
+                  <td>20</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>104</td>
+                  <td>Makarizo Hair Energy fibertherapy Conditioning Shampo</td>
+                  <td>20.000</td>
+                  <td>20</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>105</td>
+                  <td>Makarizo Nutriv Serum Honey Dew</td>
+                  <td>60.000</td>
+                  <td>30</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>106</td>
+                  <td>Barbara Walden Hair Styling Spray</td>
+                  <td>40.000</td>
+                  <td>10</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>107</td>
+                  <td>Dettol Liquid Antiseptic Germ</td>
+                  <td>31.000</td>
+                  <td>20</td>
+                   <td> 
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>108</td>
+                  <td>Mavala Switzerland Krim Kutikula</td>
+                  <td>16.000</td>
+                  <td>20</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>109</td>
+                  <td>Maybelline Color Show</td>
+                  <td>40.000</td>
+                  <td>30</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>110</td>
+                  <td>Latulipe Three Function Cake</td>
+                  <td>76.000</td>
+                  <td>30</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>111</td>
+                  <td>Wardah Lightning Two Way Cake Light Feel&nbsp;</td>
+                  <td>46.000</td>
+                  <td>20</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>112</td>
+                  <td>Cutex Nail Polish Remover Acetone Free</td>
+                  <td>65.000</td>
+                  <td>10</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>113</td>
+                  <td>Wardah BB Lightning Beauty Balm Cream</td>
+                  <td>54.000</td>
+                  <td>15</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>114</td>
+                  <td>Olay Total Effects 7 in One Pore Minimizing CC cream</td>
+                  <td>176.000</td>
+                  <td>15</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>115</td>
+                  <td>Wardah C-Defense With C DD cream</td>
+                  <td>30.000</td>
+                  <td>20</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>116</td>
+                  <td>Maybelline Eye + Lip Make Up Remover</td>
+                  <td>50.000</td>
+                  <td>25</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>117</td>
+                  <td>LT Pro Eye Glitter Gel</td>
+                  <td>80.000</td>
+                  <td>15</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>118</td>
+                  <td>Pac Make Up Remover</td>
+                  <td>180.000</td>
+                  <td>10</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>119</td>
+                  <td>Ellips Hair Mask Color Smooth &amp; Shiny</td>
+                  <td>6.000</td>
+                  <td>30</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>120</td>
+                  <td>Wardah Aqualash Mascara</td>
+                  <td>6.000</td>
+                  <td>30</td>
+                  <td>
+                    <a href="editproduk.html" class="btn btn-link">Edit</a>
+                    <a href="" class="btn btn-link" onclick="hapus();">Hapus</a>
+                    <a href="tambahstok.html" class="btn btn-link">Tambah stok</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-1">
+            <a href="tambahproduk.html"><button type="button" class="tambah-prawatan">Tambah Produk</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sistem-salon">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Sistem Informasi Salon Kecantikan</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12" id="footer">
+      <h5 align="center">Copyright© by Dhiga Zegy Agus</h5>
+    </div>
+
+    <script>
+    function hapus() {
+    var pilihan = confirm("Apakah anda setuju?");
+      if (pilihan == true) {
+        document.write("Anda mengklik ok");
+        } else {
+        document.write("Anda mengklik cancel");};
+                      }
+  </script>
+  
+  </body>
+
+</html>
