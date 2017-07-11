@@ -1,20 +1,19 @@
-<footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer>
 
+    <div class="sistem-salon">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 contenteditable="true" class="text-center">Sistem Informasi Salon Kecantikan</h1>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /.container -->
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="col-md-12"> 
+      <h5 align="center">Copyright&copy; by  Dhiga Zegy Agus</h5> 
+    </div>
+   </body>
 
-    <!-- jQuery -->
-    <script src="template/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="template/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+  </html>
