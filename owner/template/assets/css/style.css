@@ -1,0 +1,56 @@
+a{
+	color: deeppink;
+}
+
+.navbar-static-top{
+	background-color: deeppink;
+}
+.navbar-brand{
+	background-color: pink;
+}
+.navbar-right{
+	background-color: pink;
+}
+
+body{
+	background-color: pink;
+}
+
+.sistem-salon{
+	background-color: deeppink;
+}
+h1{
+	color: pink;
+}
+p{
+	color: #ff9bf8;
+	font-size: 35px;
+	text-align: center;
+}
+.nav-pills li{
+	font-size: 23px;
+}
+.tambah-prawatan{
+	background-color: #f69eff;
+	color: purple;
+}
+#kiri{
+	background-color: pink;
+	height: 530px;
+}
+#kiri-index{
+	background-color: pink;
+	height: 320px;
+}
+#kiri-kasir{
+	background-color: pink;
+	height: 370px;
+}
+#kiri-produk{
+	background-color: pink;
+	height: 300px;
+}
+#kiri-owner{
+	background-color: pink;
+	height: 230px;
+}
