@@ -1,19 +1,26 @@
 
-    <div class="sistem-salon">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 contenteditable="true" class="text-center">Sistem Informasi Salon Kecantikan</h1>
-          </div>
+                       </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
         </div>
-      </div>
     </div>
-        </div>
-      </div>
-    </div>
-    <div id="footer" class="col-md-12"> 
-      <h5 align="center">Copyright&copy; by  Dhiga Zegy Agus</h5> 
-    </div>
-   </body>
+    <!-- /#wrapper -->
 
-  </html>
+    <!-- jQuery -->
+    <script src="template/assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="template/assets/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="template/assets/js/metisMenu.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="template/assets/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

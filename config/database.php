@@ -1,9 +1,8 @@
 <?php 
+	$host="localhost";
+	$dbname="sincan";
+	$username="root";
+	$password="";
 
-$host = "localhost";
-$dbname = "dhiga_sisfonews";
-$username = "root";
-$password = " ";
-$db = "";
 
-?>
+ ?>

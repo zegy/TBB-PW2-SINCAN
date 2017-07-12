@@ -1,36 +1,3 @@
-<div class="row">
 
-            <!-- Blog Entries Column -->
-            <div class="col-md-8">
-             <?php foreach ($isi_berita as $ib) { ?>
-
-                <!-- First Blog Post -->
-                <h2>
-                    <a href="#"><?php echo $ib['judul']; ?></a>
-                </h2>
-                <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> <?php echo $ib['tanggal']; ?></p>
-                <hr>
-                <a href="blog-post.html">
-                    <img class="img-responsive img-hover" src="http://placehold.it/900x300" alt="">
-                </a>
-                <hr>
-                <p><?php echo $ib['isi']; ?></p>
-                <a class="btn btn-primary" href="#">Read More <i class="fa fa-angle-right"></i></a>
-
-                <hr>
-<?php }?>
-
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
-
-            </div>
+                        <h1 class="page-header">JUDUL</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nemo velit voluptas vero dolor, ad sint voluptatum aperiam, ratione accusantium numquam. Iusto nobis, quam doloribus consequuntur veritatis officia voluptates autem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quasi sequi. Id odio qui, ab mollitia neque fugit officiis, inventore omnis, laborum repellat cumque. Vero tempora assumenda asperiores tenetur labore?</p>
