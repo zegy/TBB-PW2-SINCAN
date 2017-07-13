@@ -62,7 +62,6 @@ class Perawatan extends Model
 			$stmt->bindparam(":harga",$harga);
 			
 			$stmt->execute();
-			echo "Berita berhasil di update!";
 
 			
 		}

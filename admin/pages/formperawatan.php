@@ -2,7 +2,7 @@
 	<h1>Menambahkan Perawatan</h1>
 	<hr>
 	<div class="col-md-6 col-sm-6">
-		<form class="form-horizontal" action="aksi_tambahperawatan.php" method="POST">
+		<form class="form-horizontal" action="aksi_tambah_perawatan.php" method="POST">
 		  <div class="form-group">
 		    <label for="nama" class="col-sm-2 control-label">Nama</label>
 		    <div class="col-sm-10">
