@@ -7,9 +7,9 @@ class Model
 	public $db;
 	
 	function __construct()
-	{
+	{ 
 
-		require_once 'config/database.php';
+		require '../config/database.php';
 		 try {
 	        $this->db = new PDO("mysql:host={$host};dbname={$dbname}", $username, $password);
 	        $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
